@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000033f5;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.numbers {
+    height: 60%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* margin: 10px; */
+}
+
+.numbers>div {
+    background-color: #f0eeedd6;
+    border-radius: 20px;
+    border: 4px solid #42032C;
+    height: 270px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#won-img {
+    display: none;
+}
+
+.num {
+    font-size: 100px;
+    color: #42032C;
+}
+
+#toggleButton {
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #42032C;
+    color: #f0eeedd6;
+}
+
+#win {
+    display: none;
+    font-size: 40px;
+    color: #f0eeedd6;
+}
+
+#lose {
+    display: none;
+    font-size: 40px;
+    color: #f0eeedd6;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#count {
+    margin-top: 20px;
+    margin-left: 20px;
+    align-self: flex-start;
+    color: #f0eeedd6;
+}
